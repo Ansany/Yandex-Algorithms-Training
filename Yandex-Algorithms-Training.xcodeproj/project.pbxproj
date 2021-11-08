@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0497E295273956FA006C7C61 /* Benches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E294273956FA006C7C61 /* Benches.swift */; };
+		0497E299273964EE006C7C61 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E298273964EE006C7C61 /* Palindrome.swift */; };
 		04D15D682738BBEF00FAF15A /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* Subway.swift */; };
 		04D15D732738BD0200FAF15A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D722738BD0200FAF15A /* Date.swift */; };
 		04D15D752738BD3900FAF15A /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D742738BD3900FAF15A /* Schools.swift */; };
@@ -33,6 +34,8 @@
 		0497E2922738C3C3006C7C61 /* Subway.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Subway.md; sourceTree = "<group>"; };
 		0497E294273956FA006C7C61 /* Benches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benches.swift; sourceTree = "<group>"; };
 		0497E29627395723006C7C61 /* Benches.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Benches.md; sourceTree = "<group>"; };
+		0497E298273964EE006C7C61 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		0497E29A273964F3006C7C61 /* Palindrome.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Palindrome.md; sourceTree = "<group>"; };
 		04D15D642738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Yandex-Algorithms-Training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D15D672738BBEF00FAF15A /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
 		04D15D722738BD0200FAF15A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -59,6 +62,15 @@
 				0497E29627395723006C7C61 /* Benches.md */,
 			);
 			path = "02B-Benches";
+			sourceTree = "<group>";
+		};
+		0497E297273964BF006C7C61 /* 02B-Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				0497E298273964EE006C7C61 /* Palindrome.swift */,
+				0497E29A273964F3006C7C61 /* Palindrome.md */,
+			);
+			path = "02B-Palindrome";
 			sourceTree = "<group>";
 		};
 		04D15D5B2738BBEF00FAF15A = {
@@ -126,6 +138,7 @@
 		04D15D7B2738BFB400FAF15A /* 02B */ = {
 			isa = PBXGroup;
 			children = (
+				0497E297273964BF006C7C61 /* 02B-Palindrome */,
 				0497E293273956C7006C7C61 /* 02B-Benches */,
 				04D15D7F2738C02300FAF15A /* 02B-Folders */,
 				04D15D7C2738BFBC00FAF15A /* 02B-HomeStore */,
@@ -210,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D15D682738BBEF00FAF15A /* Subway.swift in Sources */,
+				0497E299273964EE006C7C61 /* Palindrome.swift in Sources */,
 				0497E295273956FA006C7C61 /* Benches.swift in Sources */,
 				04D15D752738BD3900FAF15A /* Schools.swift in Sources */,
 				04D15D732738BD0200FAF15A /* Date.swift in Sources */,
