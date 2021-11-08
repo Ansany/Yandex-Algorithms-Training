@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D15D682738BBEF00FAF15A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* main.swift */; };
+		04D15D682738BBEF00FAF15A /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* Subway.swift */; };
+		04D15D732738BD0200FAF15A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D722738BD0200FAF15A /* Date.swift */; };
+		04D15D752738BD3900FAF15A /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D742738BD3900FAF15A /* Schools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,16 @@
 
 /* Begin PBXFileReference section */
 		04D15D642738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Yandex-Algorithms-Training"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D15D672738BBEF00FAF15A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04D15D672738BBEF00FAF15A /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
+		04D15D722738BD0200FAF15A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		04D15D742738BD3900FAF15A /* Schools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schools.swift; sourceTree = "<group>"; };
+		04D15D762738BE1400FAF15A /* Schools.me */ = {isa = PBXFileReference; lastKnownFileType = text; path = Schools.me; sourceTree = "<group>"; };
+		04D15D772738BE7A00FAF15A /* Schools.me */ = {isa = PBXFileReference; lastKnownFileType = text; path = Schools.me; sourceTree = "<group>"; };
+		04D15D782738BE7C00FAF15A /* Schools.me */ = {isa = PBXFileReference; lastKnownFileType = text; path = Schools.me; sourceTree = "<group>"; };
+		04D15D7D2738BFBC00FAF15A /* HomeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStore.swift; sourceTree = "<group>"; };
+		04D15D7E2738BFBC00FAF15A /* HomeStore.me */ = {isa = PBXFileReference; lastKnownFileType = text; path = HomeStore.me; sourceTree = "<group>"; };
+		04D15D832738C02300FAF15A /* Folders.me */ = {isa = PBXFileReference; lastKnownFileType = text; path = Folders.me; sourceTree = "<group>"; };
+		04D15D842738C06400FAF15A /* Folders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +68,74 @@
 		04D15D662738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {
 			isa = PBXGroup;
 			children = (
-				04D15D672738BBEF00FAF15A /* main.swift */,
+				04D15D7B2738BFB400FAF15A /* 02B */,
+				04D15D7A2738BF7C00FAF15A /* 01B */,
 			);
 			path = "Yandex-Algorithms-Training";
+			sourceTree = "<group>";
+		};
+		04D15D6E2738BC8100FAF15A /* 01B-Subway */ = {
+			isa = PBXGroup;
+			children = (
+				04D15D672738BBEF00FAF15A /* Subway.swift */,
+				04D15D782738BE7C00FAF15A /* Schools.me */,
+			);
+			path = "01B-Subway";
+			sourceTree = "<group>";
+		};
+		04D15D6F2738BC9A00FAF15A /* 01B-Date */ = {
+			isa = PBXGroup;
+			children = (
+				04D15D722738BD0200FAF15A /* Date.swift */,
+				04D15D772738BE7A00FAF15A /* Schools.me */,
+			);
+			path = "01B-Date";
+			sourceTree = "<group>";
+		};
+		04D15D702738BCAA00FAF15A /* 01B-Schools */ = {
+			isa = PBXGroup;
+			children = (
+				04D15D742738BD3900FAF15A /* Schools.swift */,
+				04D15D762738BE1400FAF15A /* Schools.me */,
+			);
+			path = "01B-Schools";
+			sourceTree = "<group>";
+		};
+		04D15D7A2738BF7C00FAF15A /* 01B */ = {
+			isa = PBXGroup;
+			children = (
+				04D15D702738BCAA00FAF15A /* 01B-Schools */,
+				04D15D6F2738BC9A00FAF15A /* 01B-Date */,
+				04D15D6E2738BC8100FAF15A /* 01B-Subway */,
+			);
+			path = 01B;
+			sourceTree = "<group>";
+		};
+		04D15D7B2738BFB400FAF15A /* 02B */ = {
+			isa = PBXGroup;
+			children = (
+				04D15D7F2738C02300FAF15A /* 02B-Folders */,
+				04D15D7C2738BFBC00FAF15A /* 02B-HomeStore */,
+			);
+			path = 02B;
+			sourceTree = "<group>";
+		};
+		04D15D7C2738BFBC00FAF15A /* 02B-HomeStore */ = {
+			isa = PBXGroup;
+			children = (
+				04D15D7D2738BFBC00FAF15A /* HomeStore.swift */,
+				04D15D7E2738BFBC00FAF15A /* HomeStore.me */,
+			);
+			path = "02B-HomeStore";
+			sourceTree = "<group>";
+		};
+		04D15D7F2738C02300FAF15A /* 02B-Folders */ = {
+			isa = PBXGroup;
+			children = (
+				04D15D842738C06400FAF15A /* Folders.swift */,
+				04D15D832738C02300FAF15A /* Folders.me */,
+			);
+			path = "02B-Folders";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D15D682738BBEF00FAF15A /* main.swift in Sources */,
+				04D15D682738BBEF00FAF15A /* Subway.swift in Sources */,
+				04D15D752738BD3900FAF15A /* Schools.swift in Sources */,
+				04D15D732738BD0200FAF15A /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
