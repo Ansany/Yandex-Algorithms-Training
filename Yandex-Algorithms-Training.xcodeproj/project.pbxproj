@@ -11,6 +11,7 @@
 		0497E299273964EE006C7C61 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E298273964EE006C7C61 /* Palindrome.swift */; };
 		0497E29D27396C5D006C7C61 /* NumberOfMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E29C27396C5D006C7C61 /* NumberOfMax.swift */; };
 		0497E2A3273A0345006C7C61 /* SameNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2A2273A0345006C7C61 /* SameNumbers.swift */; };
+		0497E2A6273AAF02006C7C61 /* YesNoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2A5273AAF02006C7C61 /* YesNoNumbers.swift */; };
 		04D15D682738BBEF00FAF15A /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* Subway.swift */; };
 		04D15D732738BD0200FAF15A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D722738BD0200FAF15A /* Date.swift */; };
 		04D15D752738BD3900FAF15A /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D742738BD3900FAF15A /* Schools.swift */; };
@@ -40,8 +41,10 @@
 		0497E29A273964F3006C7C61 /* Palindrome.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Palindrome.md; sourceTree = "<group>"; };
 		0497E29C27396C5D006C7C61 /* NumberOfMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfMax.swift; sourceTree = "<group>"; };
 		0497E29E27396C71006C7C61 /* NumberOfMax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NumberOfMax.md; sourceTree = "<group>"; };
-		0497E2A1273A0334006C7C61 /* Palindrome.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Palindrome.md; sourceTree = "<group>"; };
+		0497E2A1273A0334006C7C61 /* SameNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SameNumbers.md; sourceTree = "<group>"; };
 		0497E2A2273A0345006C7C61 /* SameNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameNumbers.swift; sourceTree = "<group>"; };
+		0497E2A5273AAF02006C7C61 /* YesNoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesNoNumbers.swift; sourceTree = "<group>"; };
+		0497E2A7273AAF09006C7C61 /* YesNoNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = YesNoNumbers.md; sourceTree = "<group>"; };
 		04D15D642738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Yandex-Algorithms-Training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D15D672738BBEF00FAF15A /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
 		04D15D722738BD0200FAF15A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 		0497E29F273A0318006C7C61 /* 03B */ = {
 			isa = PBXGroup;
 			children = (
+				0497E2A4273AAEE3006C7C61 /* 03B-YesNoNumbers */,
 				0497E2A0273A031F006C7C61 /* 03B-SameNumbers */,
 			);
 			path = 03B;
@@ -99,10 +103,19 @@
 		0497E2A0273A031F006C7C61 /* 03B-SameNumbers */ = {
 			isa = PBXGroup;
 			children = (
-				0497E2A1273A0334006C7C61 /* Palindrome.md */,
+				0497E2A1273A0334006C7C61 /* SameNumbers.md */,
 				0497E2A2273A0345006C7C61 /* SameNumbers.swift */,
 			);
 			path = "03B-SameNumbers";
+			sourceTree = "<group>";
+		};
+		0497E2A4273AAEE3006C7C61 /* 03B-YesNoNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				0497E2A5273AAF02006C7C61 /* YesNoNumbers.swift */,
+				0497E2A7273AAF09006C7C61 /* YesNoNumbers.md */,
+			);
+			path = "03B-YesNoNumbers";
 			sourceTree = "<group>";
 		};
 		04D15D5B2738BBEF00FAF15A = {
@@ -263,6 +276,7 @@
 				0497E2A3273A0345006C7C61 /* SameNumbers.swift in Sources */,
 				04D15D752738BD3900FAF15A /* Schools.swift in Sources */,
 				04D15D732738BD0200FAF15A /* Date.swift in Sources */,
+				0497E2A6273AAF02006C7C61 /* YesNoNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
