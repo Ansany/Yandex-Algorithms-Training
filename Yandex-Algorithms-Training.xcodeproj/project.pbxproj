@@ -10,6 +10,7 @@
 		0497E295273956FA006C7C61 /* Benches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E294273956FA006C7C61 /* Benches.swift */; };
 		0497E299273964EE006C7C61 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E298273964EE006C7C61 /* Palindrome.swift */; };
 		0497E29D27396C5D006C7C61 /* NumberOfMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E29C27396C5D006C7C61 /* NumberOfMax.swift */; };
+		0497E2A3273A0345006C7C61 /* SameNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2A2273A0345006C7C61 /* SameNumbers.swift */; };
 		04D15D682738BBEF00FAF15A /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* Subway.swift */; };
 		04D15D732738BD0200FAF15A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D722738BD0200FAF15A /* Date.swift */; };
 		04D15D752738BD3900FAF15A /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D742738BD3900FAF15A /* Schools.swift */; };
@@ -39,6 +40,8 @@
 		0497E29A273964F3006C7C61 /* Palindrome.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Palindrome.md; sourceTree = "<group>"; };
 		0497E29C27396C5D006C7C61 /* NumberOfMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfMax.swift; sourceTree = "<group>"; };
 		0497E29E27396C71006C7C61 /* NumberOfMax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NumberOfMax.md; sourceTree = "<group>"; };
+		0497E2A1273A0334006C7C61 /* Palindrome.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Palindrome.md; sourceTree = "<group>"; };
+		0497E2A2273A0345006C7C61 /* SameNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameNumbers.swift; sourceTree = "<group>"; };
 		04D15D642738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Yandex-Algorithms-Training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D15D672738BBEF00FAF15A /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
 		04D15D722738BD0200FAF15A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -85,6 +88,23 @@
 			path = "02B-NumberOfMax";
 			sourceTree = "<group>";
 		};
+		0497E29F273A0318006C7C61 /* 03B */ = {
+			isa = PBXGroup;
+			children = (
+				0497E2A0273A031F006C7C61 /* 03B-SameNumbers */,
+			);
+			path = 03B;
+			sourceTree = "<group>";
+		};
+		0497E2A0273A031F006C7C61 /* 03B-SameNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				0497E2A1273A0334006C7C61 /* Palindrome.md */,
+				0497E2A2273A0345006C7C61 /* SameNumbers.swift */,
+			);
+			path = "03B-SameNumbers";
+			sourceTree = "<group>";
+		};
 		04D15D5B2738BBEF00FAF15A = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +124,7 @@
 		04D15D662738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {
 			isa = PBXGroup;
 			children = (
+				0497E29F273A0318006C7C61 /* 03B */,
 				04D15D7B2738BFB400FAF15A /* 02B */,
 				04D15D7A2738BF7C00FAF15A /* 01B */,
 			);
@@ -239,6 +260,7 @@
 				04D15D682738BBEF00FAF15A /* Subway.swift in Sources */,
 				0497E299273964EE006C7C61 /* Palindrome.swift in Sources */,
 				0497E295273956FA006C7C61 /* Benches.swift in Sources */,
+				0497E2A3273A0345006C7C61 /* SameNumbers.swift in Sources */,
 				04D15D752738BD3900FAF15A /* Schools.swift in Sources */,
 				04D15D732738BD0200FAF15A /* Date.swift in Sources */,
 			);
