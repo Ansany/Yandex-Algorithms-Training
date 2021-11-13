@@ -7,28 +7,26 @@
 
 import Foundation
 
-import Foundation
-
 var dict: [String : Int] = [:]
 
-while let lines = readLine()?.split{$0 == " "}.map(String.init) {
+while let lines = readLine()?.split(whereSeparator: {$0 == " "}).map(String.init) {
     
     if lines != [] {
         if dict.isEmpty {
             dict[lines[0]] = Int(lines[1])
         } else {
-            for key in dict.keys {
-                if key == lines[0] {
-                    dict[key]! += Int(lines[1])!
+            
+            for item in dict {
+                if item.key == lines[0] {
+                    dict[item.key]! += Int(lines[1])!
                 } else {
                     dict[lines[0]] = Int(lines[1])
                 }
             }
         }
     } else {
-        break
+        for (nameS, voices) in dict.sorted(by: { $0.0 < $1.0 }) {
+            print("\(nameS) \(voices)")
+        }
     }
-}
-for (nameS, voices) in dict.sorted(by: { $0.0 < $1.0 }) {
-    print("\(nameS) \(voices)")
 }

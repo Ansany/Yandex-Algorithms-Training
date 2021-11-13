@@ -50,7 +50,7 @@
 		0497E2AD273AC2CE006C7C61 /* YesNoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YesNoNumbers.swift; path = "Yandex-Algorithms-Training/03B/03B-YesNoNumbers/YesNoNumbers.swift"; sourceTree = SOURCE_ROOT; };
 		0497E2AF273AC2DB006C7C61 /* YesNoNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = YesNoNumbers.md; sourceTree = "<group>"; };
 		0497E2B2273DA7AC006C7C61 /* Elections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elections.swift; sourceTree = "<group>"; };
-		0497E2B4273DA7C4006C7C61 /* UniqueNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UniqueNumbers.md; sourceTree = "<group>"; };
+		0497E2B4273DA7C4006C7C61 /* Elections.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Elections.md; sourceTree = "<group>"; };
 		04D15D642738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Yandex-Algorithms-Training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D15D672738BBEF00FAF15A /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
 		04D15D722738BD0200FAF15A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				0497E2B2273DA7AC006C7C61 /* Elections.swift */,
-				0497E2B4273DA7C4006C7C61 /* UniqueNumbers.md */,
+				0497E2B4273DA7C4006C7C61 /* Elections.md */,
 			);
 			path = "04B-Elections";
 			sourceTree = "<group>";
