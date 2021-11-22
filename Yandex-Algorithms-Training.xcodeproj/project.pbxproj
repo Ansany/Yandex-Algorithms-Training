@@ -14,6 +14,7 @@
 		0497E2A6273AAF02006C7C61 /* UniqueNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2A5273AAF02006C7C61 /* UniqueNumbers.swift */; };
 		0497E2AE273AC2CE006C7C61 /* YesNoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2AD273AC2CE006C7C61 /* YesNoNumbers.swift */; };
 		0497E2B3273DA7AC006C7C61 /* Elections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2B2273DA7AC006C7C61 /* Elections.swift */; };
+		0497E2B9274BBE6C006C7C61 /* Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2B8274BBE6C006C7C61 /* Trees.swift */; };
 		04D15D682738BBEF00FAF15A /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* Subway.swift */; };
 		04D15D732738BD0200FAF15A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D722738BD0200FAF15A /* Date.swift */; };
 		04D15D752738BD3900FAF15A /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D742738BD3900FAF15A /* Schools.swift */; };
@@ -51,6 +52,8 @@
 		0497E2AF273AC2DB006C7C61 /* YesNoNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = YesNoNumbers.md; sourceTree = "<group>"; };
 		0497E2B2273DA7AC006C7C61 /* Elections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elections.swift; sourceTree = "<group>"; };
 		0497E2B4273DA7C4006C7C61 /* Elections.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Elections.md; sourceTree = "<group>"; };
+		0497E2B7274BBE36006C7C61 /* Trees.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Trees.md; sourceTree = "<group>"; };
+		0497E2B8274BBE6C006C7C61 /* Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trees.swift; sourceTree = "<group>"; };
 		04D15D642738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Yandex-Algorithms-Training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D15D672738BBEF00FAF15A /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
 		04D15D722738BD0200FAF15A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -151,6 +154,23 @@
 			path = "04B-Elections";
 			sourceTree = "<group>";
 		};
+		0497E2B5274BBE20006C7C61 /* 05B */ = {
+			isa = PBXGroup;
+			children = (
+				0497E2B6274BBE2B006C7C61 /* 05B-Trees */,
+			);
+			path = 05B;
+			sourceTree = "<group>";
+		};
+		0497E2B6274BBE2B006C7C61 /* 05B-Trees */ = {
+			isa = PBXGroup;
+			children = (
+				0497E2B8274BBE6C006C7C61 /* Trees.swift */,
+				0497E2B7274BBE36006C7C61 /* Trees.md */,
+			);
+			path = "05B-Trees";
+			sourceTree = "<group>";
+		};
 		04D15D5B2738BBEF00FAF15A = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +190,7 @@
 		04D15D662738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {
 			isa = PBXGroup;
 			children = (
+				0497E2B5274BBE20006C7C61 /* 05B */,
 				0497E2B0273DA774006C7C61 /* 04B */,
 				0497E29F273A0318006C7C61 /* 03B */,
 				04D15D7B2738BFB400FAF15A /* 02B */,
@@ -304,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0497E29D27396C5D006C7C61 /* NumberOfMax.swift in Sources */,
+				0497E2B9274BBE6C006C7C61 /* Trees.swift in Sources */,
 				04D15D682738BBEF00FAF15A /* Subway.swift in Sources */,
 				0497E299273964EE006C7C61 /* Palindrome.swift in Sources */,
 				0497E295273956FA006C7C61 /* Benches.swift in Sources */,
