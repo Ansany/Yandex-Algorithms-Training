@@ -7,7 +7,10 @@
 
 import Foundation
 
-let numberOfTasks: Int = 10
+import Foundation
+
+let numberOfTasks = Int(readLine()!)!
+let firstDayTasks = Int(readLine()!)!
 
 func check(days: Int, n: Int, k: Int) -> Bool {
     if (k + k + days - 1) * (days / 2) >= n {
@@ -17,22 +20,18 @@ func check(days: Int, n: Int, k: Int) -> Bool {
     }
 }
 
-func rightBinSearch() -> Int {
-    var l = 0
-    var r = numberOfTasks
+func leftBinSearch(l: Int, r: Int, check: (Int,Int,Int) -> Bool, n: Int, k: Int) -> Int {
+    var l = l
+    var r = r
     while l < r {
         let mid = (l + r) / 2
-        print("Mid - \(mid)")
-        if check(days: mid, n: numberOfTasks, k: 1) {
+        if check(mid, n, k) {
             r = mid
-            print("R - \(r)")
         } else {
             l = mid + 1
-            print("L - \(l)")
         }
     }
-    print("ans - \(l)")
     return l
 }
 
-rightBinSearch()
+print(leftBinSearch(l: 0, r: numberOfTasks, check: check(days:n:k:), n: numberOfTasks, k: firstDayTasks))

@@ -16,7 +16,7 @@
 		0497E2B3273DA7AC006C7C61 /* Elections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2B2273DA7AC006C7C61 /* Elections.swift */; };
 		0497E2B9274BBE6C006C7C61 /* Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2B8274BBE6C006C7C61 /* Trees.swift */; };
 		0497E2BD274D2D84006C7C61 /* FootballTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2BC274D2D84006C7C61 /* FootballTeam.swift */; };
-		0497E2C1274D5328006C7C61 /* BinSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2C0274D5328006C7C61 /* BinSearch.swift */; };
+		0497E2C1274D5328006C7C61 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2C0274D5328006C7C61 /* Developer.swift */; };
 		04D15D682738BBEF00FAF15A /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* Subway.swift */; };
 		04D15D732738BD0200FAF15A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D722738BD0200FAF15A /* Date.swift */; };
 		04D15D752738BD3900FAF15A /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D742738BD3900FAF15A /* Schools.swift */; };
@@ -58,13 +58,14 @@
 		0497E2B8274BBE6C006C7C61 /* Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trees.swift; sourceTree = "<group>"; };
 		0497E2BC274D2D84006C7C61 /* FootballTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballTeam.swift; sourceTree = "<group>"; };
 		0497E2BE274D2D96006C7C61 /* FottballTeam.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FottballTeam.md; sourceTree = "<group>"; };
-		0497E2C0274D5328006C7C61 /* BinSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinSearch.swift; sourceTree = "<group>"; };
+		0497E2C0274D5328006C7C61 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		04D15D642738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Yandex-Algorithms-Training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D15D672738BBEF00FAF15A /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
 		04D15D722738BD0200FAF15A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		04D15D742738BD3900FAF15A /* Schools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schools.swift; sourceTree = "<group>"; };
 		04D15D7D2738BFBC00FAF15A /* HomeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStore.swift; sourceTree = "<group>"; };
 		04D15D842738C06400FAF15A /* Folders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folders.swift; sourceTree = "<group>"; };
+		04F79357274E7BB800A3D42F /* Developer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Developer.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +198,7 @@
 		0497E2BF274D5318006C7C61 /* BinSearch */ = {
 			isa = PBXGroup;
 			children = (
-				0497E2C0274D5328006C7C61 /* BinSearch.swift */,
+				04F79356274E7B9000A3D42F /* LeftBinSearch */,
 			);
 			path = BinSearch;
 			sourceTree = "<group>";
@@ -298,6 +299,15 @@
 			path = "02B-Folders";
 			sourceTree = "<group>";
 		};
+		04F79356274E7B9000A3D42F /* LeftBinSearch */ = {
+			isa = PBXGroup;
+			children = (
+				0497E2C0274D5328006C7C61 /* Developer.swift */,
+				04F79357274E7BB800A3D42F /* Developer.md */,
+			);
+			path = LeftBinSearch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,7 +377,7 @@
 				0497E2AE273AC2CE006C7C61 /* YesNoNumbers.swift in Sources */,
 				04D15D752738BD3900FAF15A /* Schools.swift in Sources */,
 				04D15D732738BD0200FAF15A /* Date.swift in Sources */,
-				0497E2C1274D5328006C7C61 /* BinSearch.swift in Sources */,
+				0497E2C1274D5328006C7C61 /* Developer.swift in Sources */,
 				0497E2A6273AAF02006C7C61 /* UniqueNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
