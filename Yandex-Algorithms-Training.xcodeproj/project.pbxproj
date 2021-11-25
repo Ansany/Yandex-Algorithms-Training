@@ -20,6 +20,7 @@
 		04D15D682738BBEF00FAF15A /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* Subway.swift */; };
 		04D15D732738BD0200FAF15A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D722738BD0200FAF15A /* Date.swift */; };
 		04D15D752738BD3900FAF15A /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D742738BD3900FAF15A /* Schools.swift */; };
+		04F7935A274E8A1500A3D42F /* Stickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F79359274E8A1500A3D42F /* Stickers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +67,8 @@
 		04D15D7D2738BFBC00FAF15A /* HomeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStore.swift; sourceTree = "<group>"; };
 		04D15D842738C06400FAF15A /* Folders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folders.swift; sourceTree = "<group>"; };
 		04F79357274E7BB800A3D42F /* Developer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Developer.md; sourceTree = "<group>"; };
+		04F79359274E8A1500A3D42F /* Stickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickers.swift; sourceTree = "<group>"; };
+		04F7935B274E8A2500A3D42F /* Stickers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Stickers.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,7 @@
 		0497E2BF274D5318006C7C61 /* BinSearch */ = {
 			isa = PBXGroup;
 			children = (
+				04F79358274E89FB00A3D42F /* RightBinSearch */,
 				04F79356274E7B9000A3D42F /* LeftBinSearch */,
 			);
 			path = BinSearch;
@@ -308,6 +312,15 @@
 			path = LeftBinSearch;
 			sourceTree = "<group>";
 		};
+		04F79358274E89FB00A3D42F /* RightBinSearch */ = {
+			isa = PBXGroup;
+			children = (
+				04F79359274E8A1500A3D42F /* Stickers.swift */,
+				04F7935B274E8A2500A3D42F /* Stickers.md */,
+			);
+			path = RightBinSearch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -371,6 +384,7 @@
 				04D15D682738BBEF00FAF15A /* Subway.swift in Sources */,
 				0497E2BD274D2D84006C7C61 /* FootballTeam.swift in Sources */,
 				0497E299273964EE006C7C61 /* Palindrome.swift in Sources */,
+				04F7935A274E8A1500A3D42F /* Stickers.swift in Sources */,
 				0497E295273956FA006C7C61 /* Benches.swift in Sources */,
 				0497E2B3273DA7AC006C7C61 /* Elections.swift in Sources */,
 				0497E2A3273A0345006C7C61 /* SameNumbers.swift in Sources */,
