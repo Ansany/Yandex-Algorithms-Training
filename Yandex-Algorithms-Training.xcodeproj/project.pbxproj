@@ -17,6 +17,7 @@
 		0497E2B9274BBE6C006C7C61 /* Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2B8274BBE6C006C7C61 /* Trees.swift */; };
 		0497E2BD274D2D84006C7C61 /* FootballTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2BC274D2D84006C7C61 /* FootballTeam.swift */; };
 		0497E2C1274D5328006C7C61 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E2C0274D5328006C7C61 /* Developer.swift */; };
+		04B0952B27552FFD001C6132 /* CarsNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0952A27552FFD001C6132 /* CarsNumbers.swift */; };
 		04D15D682738BBEF00FAF15A /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D672738BBEF00FAF15A /* Subway.swift */; };
 		04D15D732738BD0200FAF15A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D722738BD0200FAF15A /* Date.swift */; };
 		04D15D752738BD3900FAF15A /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D15D742738BD3900FAF15A /* Schools.swift */; };
@@ -60,6 +61,8 @@
 		0497E2BC274D2D84006C7C61 /* FootballTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballTeam.swift; sourceTree = "<group>"; };
 		0497E2BE274D2D96006C7C61 /* FottballTeam.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FottballTeam.md; sourceTree = "<group>"; };
 		0497E2C0274D5328006C7C61 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		04B0952A27552FFD001C6132 /* CarsNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsNumbers.swift; sourceTree = "<group>"; };
+		04B0952C27553023001C6132 /* CarsNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CarsNumbers.md; sourceTree = "<group>"; };
 		04D15D642738BBEF00FAF15A /* Yandex-Algorithms-Training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Yandex-Algorithms-Training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D15D672738BBEF00FAF15A /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
 		04D15D722738BD0200FAF15A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -112,6 +115,7 @@
 		0497E29F273A0318006C7C61 /* 03B */ = {
 			isa = PBXGroup;
 			children = (
+				04B0952927552FE6001C6132 /* 03B-CarsNumbers */,
 				0497E2A4273AAEE3006C7C61 /* 03B-UniqueNumbers */,
 				0497E2A8273AC05F006C7C61 /* 03B-YesNoNumbers */,
 				0497E2A0273A031F006C7C61 /* 03B-SameNumbers */,
@@ -205,6 +209,15 @@
 				04F79356274E7B9000A3D42F /* LeftBinSearch */,
 			);
 			path = BinSearch;
+			sourceTree = "<group>";
+		};
+		04B0952927552FE6001C6132 /* 03B-CarsNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				04B0952A27552FFD001C6132 /* CarsNumbers.swift */,
+				04B0952C27553023001C6132 /* CarsNumbers.md */,
+			);
+			path = "03B-CarsNumbers";
 			sourceTree = "<group>";
 		};
 		04D15D5B2738BBEF00FAF15A = {
@@ -379,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B0952B27552FFD001C6132 /* CarsNumbers.swift in Sources */,
 				0497E29D27396C5D006C7C61 /* NumberOfMax.swift in Sources */,
 				0497E2B9274BBE6C006C7C61 /* Trees.swift in Sources */,
 				04D15D682738BBEF00FAF15A /* Subway.swift in Sources */,
