@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0451864A27568C4A000BFE29 /* GuessTheNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451864927568C4A000BFE29 /* GuessTheNumber.swift */; };
 		0497E295273956FA006C7C61 /* Benches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E294273956FA006C7C61 /* Benches.swift */; };
 		0497E299273964EE006C7C61 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E298273964EE006C7C61 /* Palindrome.swift */; };
 		0497E29D27396C5D006C7C61 /* NumberOfMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E29C27396C5D006C7C61 /* NumberOfMax.swift */; };
@@ -37,6 +38,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0451864927568C4A000BFE29 /* GuessTheNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumber.swift; sourceTree = "<group>"; };
+		0451864B27568C5A000BFE29 /* GuessTheNumber.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GuessTheNumber.md; sourceTree = "<group>"; };
 		0497E28E2738C340006C7C61 /* Folders.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Folders.md; sourceTree = "<group>"; };
 		0497E28F2738C35E006C7C61 /* HomeStore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HomeStore.md; sourceTree = "<group>"; };
 		0497E2902738C380006C7C61 /* Schools.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Schools.md; sourceTree = "<group>"; };
@@ -85,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0451864827568C1B000BFE29 /* 03B-GuessTheNumber */ = {
+			isa = PBXGroup;
+			children = (
+				0451864927568C4A000BFE29 /* GuessTheNumber.swift */,
+				0451864B27568C5A000BFE29 /* GuessTheNumber.md */,
+			);
+			path = "03B-GuessTheNumber";
+			sourceTree = "<group>";
+		};
 		0497E293273956C7006C7C61 /* 02B-Benches */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +127,7 @@
 		0497E29F273A0318006C7C61 /* 03B */ = {
 			isa = PBXGroup;
 			children = (
+				0451864827568C1B000BFE29 /* 03B-GuessTheNumber */,
 				04B0952927552FE6001C6132 /* 03B-CarsNumbers */,
 				0497E2A4273AAEE3006C7C61 /* 03B-UniqueNumbers */,
 				0497E2A8273AC05F006C7C61 /* 03B-YesNoNumbers */,
@@ -392,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0451864A27568C4A000BFE29 /* GuessTheNumber.swift in Sources */,
 				04B0952B27552FFD001C6132 /* CarsNumbers.swift in Sources */,
 				0497E29D27396C5D006C7C61 /* NumberOfMax.swift in Sources */,
 				0497E2B9274BBE6C006C7C61 /* Trees.swift in Sources */,
