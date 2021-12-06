@@ -7,26 +7,29 @@
 
 import Foundation
 
-var myString = readLine()!
-var arr: [String] = []
-while myString != "STOP" {
-    arr.append(myString)
-    myString = readLine()!
+var fromFile = [String]()
+
+while true {
+    let str = readLine()
+    if str == nil {
+        break
+    }
+    fromFile.append(str!)
 }
 
-func someSort(array: [String]){
-    var stringArray: [Int:String] = [:]
-    for i in array {
-        if let key = Int(i.filter { ("1"..."9").contains($0) }) {
-            let string = i.components(separatedBy: CharacterSet.decimalDigits).joined()
-            stringArray[key] = string
-        }
-    }
-    let sortedArray = stringArray.sorted( by: { $0.0 < $1.0 })
-    for item in sortedArray {
-        print(item.value, separator: " ")
+var ans = Array(repeating: "", count: fromFile.count + 1)
+
+for str in fromFile {
+ if str != "" {
+     let key = str.filter{$0.isNumber}
+     ans[Int(key)!] = str.replacingOccurrences(of: key, with: "")
     }
 }
 
-someSort(array: arr)
+ans.dropFirst().forEach{ print($0)}
+
+//MARK: - #1
+
+//let filename = "input.txt"
+//var contents = try! String(contentsOfFile: filename).split(separator: "\n")
 
