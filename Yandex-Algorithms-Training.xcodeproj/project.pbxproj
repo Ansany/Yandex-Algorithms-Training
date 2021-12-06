@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0451864A27568C4A000BFE29 /* GuessTheNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451864927568C4A000BFE29 /* GuessTheNumber.swift */; };
-		04518654275A7D59000BFE29 /* LibraryBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518653275A7D59000BFE29 /* LibraryBag.swift */; };
+		04518654275A7D59000BFE29 /* LibraryBug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518653275A7D59000BFE29 /* LibraryBug.swift */; };
 		0497E295273956FA006C7C61 /* Benches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E294273956FA006C7C61 /* Benches.swift */; };
 		0497E299273964EE006C7C61 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E298273964EE006C7C61 /* Palindrome.swift */; };
 		0497E29D27396C5D006C7C61 /* NumberOfMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E29C27396C5D006C7C61 /* NumberOfMax.swift */; };
@@ -41,8 +41,8 @@
 /* Begin PBXFileReference section */
 		0451864927568C4A000BFE29 /* GuessTheNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumber.swift; sourceTree = "<group>"; };
 		0451864B27568C5A000BFE29 /* GuessTheNumber.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GuessTheNumber.md; sourceTree = "<group>"; };
-		04518653275A7D59000BFE29 /* LibraryBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryBag.swift; sourceTree = "<group>"; };
-		04518655275A82B5000BFE29 /* LibraryBag.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LibraryBag.md; sourceTree = "<group>"; };
+		04518653275A7D59000BFE29 /* LibraryBug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryBug.swift; sourceTree = "<group>"; };
+		04518655275A82B5000BFE29 /* LibraryBug.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LibraryBug.md; sourceTree = "<group>"; };
 		0497E28E2738C340006C7C61 /* Folders.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Folders.md; sourceTree = "<group>"; };
 		0497E28F2738C35E006C7C61 /* HomeStore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HomeStore.md; sourceTree = "<group>"; };
 		0497E2902738C380006C7C61 /* Schools.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Schools.md; sourceTree = "<group>"; };
@@ -91,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04236503275E6BBA008AB125 /* LibraryBug */ = {
+			isa = PBXGroup;
+			children = (
+				04518653275A7D59000BFE29 /* LibraryBug.swift */,
+				04518655275A82B5000BFE29 /* LibraryBug.md */,
+			);
+			path = LibraryBug;
+			sourceTree = "<group>";
+		};
 		0451864827568C1B000BFE29 /* 03B-GuessTheNumber */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +112,7 @@
 		04518652275A7D1C000BFE29 /* ContestTraning */ = {
 			isa = PBXGroup;
 			children = (
-				04518653275A7D59000BFE29 /* LibraryBag.swift */,
-				04518655275A82B5000BFE29 /* LibraryBag.md */,
+				04236503275E6BBA008AB125 /* LibraryBug */,
 			);
 			path = ContestTraning;
 			sourceTree = "<group>";
@@ -424,7 +432,7 @@
 				0497E2B9274BBE6C006C7C61 /* Trees.swift in Sources */,
 				04D15D682738BBEF00FAF15A /* Subway.swift in Sources */,
 				0497E2BD274D2D84006C7C61 /* FootballTeam.swift in Sources */,
-				04518654275A7D59000BFE29 /* LibraryBag.swift in Sources */,
+				04518654275A7D59000BFE29 /* LibraryBug.swift in Sources */,
 				0497E299273964EE006C7C61 /* Palindrome.swift in Sources */,
 				04F7935A274E8A1500A3D42F /* Stickers.swift in Sources */,
 				0497E295273956FA006C7C61 /* Benches.swift in Sources */,
