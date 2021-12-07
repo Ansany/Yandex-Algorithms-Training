@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		04236507275FA275008AB125 /* FindWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindWay.swift; sourceTree = "<group>"; };
+		04236509275FA28C008AB125 /* FindWay.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FindWay.md; sourceTree = "<group>"; };
 		0451864927568C4A000BFE29 /* GuessTheNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumber.swift; sourceTree = "<group>"; };
 		0451864B27568C5A000BFE29 /* GuessTheNumber.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GuessTheNumber.md; sourceTree = "<group>"; };
 		04518653275A7D59000BFE29 /* LibraryBug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryBug.swift; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				04236507275FA275008AB125 /* FindWay.swift */,
+				04236509275FA28C008AB125 /* FindWay.md */,
 			);
 			path = FindWay;
 			sourceTree = "<group>";
