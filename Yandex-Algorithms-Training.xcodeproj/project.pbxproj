@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04236508275FA275008AB125 /* FindWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04236507275FA275008AB125 /* FindWay.swift */; };
 		0451864A27568C4A000BFE29 /* GuessTheNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451864927568C4A000BFE29 /* GuessTheNumber.swift */; };
 		04518654275A7D59000BFE29 /* LibraryBug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518653275A7D59000BFE29 /* LibraryBug.swift */; };
 		0497E295273956FA006C7C61 /* Benches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497E294273956FA006C7C61 /* Benches.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04236507275FA275008AB125 /* FindWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindWay.swift; sourceTree = "<group>"; };
 		0451864927568C4A000BFE29 /* GuessTheNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumber.swift; sourceTree = "<group>"; };
 		0451864B27568C5A000BFE29 /* GuessTheNumber.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GuessTheNumber.md; sourceTree = "<group>"; };
 		04518653275A7D59000BFE29 /* LibraryBug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryBug.swift; sourceTree = "<group>"; };
@@ -100,6 +102,14 @@
 			path = LibraryBug;
 			sourceTree = "<group>";
 		};
+		04236506275FA257008AB125 /* FindWay */ = {
+			isa = PBXGroup;
+			children = (
+				04236507275FA275008AB125 /* FindWay.swift */,
+			);
+			path = FindWay;
+			sourceTree = "<group>";
+		};
 		0451864827568C1B000BFE29 /* 03B-GuessTheNumber */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		04518652275A7D1C000BFE29 /* ContestTraning */ = {
 			isa = PBXGroup;
 			children = (
+				04236506275FA257008AB125 /* FindWay */,
 				04236503275E6BBA008AB125 /* LibraryBug */,
 			);
 			path = ContestTraning;
@@ -426,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04236508275FA275008AB125 /* FindWay.swift in Sources */,
 				0451864A27568C4A000BFE29 /* GuessTheNumber.swift in Sources */,
 				04B0952B27552FFD001C6132 /* CarsNumbers.swift in Sources */,
 				0497E29D27396C5D006C7C61 /* NumberOfMax.swift in Sources */,
